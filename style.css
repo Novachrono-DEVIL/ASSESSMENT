@@ -10,22 +10,23 @@ span
 }
 body
 {
-    background-color: black;
+    background-color: rgb(38, 36, 36);
     font-family: Arial, Helvetica, sans-serif;
 }
 .side
 {
     width: 300px;
-    background: white;
+    background: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 10px;
+    padding-top: 5px;
 }
 .sidenav
 {
-    background: black;
+    background: rgb(0, 0, 0);
     border-radius: 10px;
     padding:  20px 10px;
 }
@@ -37,6 +38,7 @@ body
 .sidenav.logo img
 {
     width: 100px;
+    padding-bottom: 5px;
 }
 .sidenav ul{
     list-style: none;
@@ -47,13 +49,39 @@ body
 }
 .sidenav ul li a{ 
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 16px ;
     font-weight: 600;
-
+    cursor: pointer;
 }
 .sidenav ul li a{ 
    font-size: 20px;
    margin-right: 10px;
+   
 
+}
+.sidenav ul{
+    list-style: none;
+}
+.sidenav ul li
+{
+    padding: 10px 20px;
+}
+.sidenav ul li a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 16px ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sidenav ul li a{ 
+   font-size: 20px;
+   margin-right: 10px;
+   
+
+}
+.hi
+{
+    padding: 10px;
+    color: white;
 }
