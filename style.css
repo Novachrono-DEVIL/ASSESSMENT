@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span
+{
+     color: white;
+}
+body
+{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.side
+{
+    width: 300px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+.sidenav
+{
+    background: black;
+    border-radius: 10px;
+    padding:  20px 10px;
+}
+.sidenav.logo img
+{
+    width: 120px;
+
+}
+.sidenav.logo img
+{
+    width: 100px;
+}
+.sidenav ul{
+    list-style: none;
+}
+.sidenav ul li
+{
+    padding: 10px 20px;
+}
+.sidenav ul li a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 16px ;
+    font-weight: 600;
+
+}
+.sidenav ul li a{ 
+   font-size: 20px;
+   margin-right: 10px;
+
+}
